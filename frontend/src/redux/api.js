@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const baseURL = 'http://localhost:5000/api'
-const baseURL = 'https://todo-fullstack-backend-nine.vercel.app/api/'
+const baseURL = 'https://todo-fullstack-backend.vercel.app/api/'
 
 const API = axios.create({baseURL: baseURL})
 
