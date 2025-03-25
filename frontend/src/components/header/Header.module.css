@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    border: 2px double;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+.btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.btn button {
+    width: 60px;
+    height: 25px;
+    border: none;
+}
+
+.btn .fbtn {
+    background: orangered;
+    color: white;   
+    border-top-left-radius: 20px;
+    transition: 1s;
+}
+
+.btn .sbtn {
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    border-bottom-right-radius: 20px;
+    transition: 1s;
+}
+
+.btn .fbtn:hover {
+    background-color: rgb(66, 66, 66);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.btn .sbtn:hover {
+    background: orangered;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}

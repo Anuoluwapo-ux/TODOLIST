@@ -1,0 +1,52 @@
+.container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    min-height: 80vh;
+    text-align: center;
+}
+
+.container form {
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: rgb(39, 39, 39);
+    width: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    margin-top: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(59, 59, 59);
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+small {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+small h5 {
+    text-align: center;
+    color: gray;
+    padding-left: 85px;
+}
+
+a {
+    color: orangered;
+}
+
+.btn button {
+    margin-top: 30px;
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    color: white;
+}
